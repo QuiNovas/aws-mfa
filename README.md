@@ -8,7 +8,7 @@ To enforce mfa, please see the following modules:
 - https://github.com/QuiNovas/terraform-modules/tree/master/aws/user-role
 - https://github.com/QuiNovas/terraform-modules/tree/master/aws/assume-role-group
 
-Once you have MFA enforcement setup and cross-account roles established, you use this script in place of the normal `terraform` command.
+Once you have MFA enforcement setup and cross-account roles established, you use this script in place of the normal `aws` command.
 
 Recommendations:
 - Place `aws-mfa` in your path, and make it executable. `/usr/local/bin` is my preferred location.
